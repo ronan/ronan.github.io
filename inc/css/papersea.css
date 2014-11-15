@@ -1,0 +1,127 @@
+body {
+  background: url(../images/bg.jpg) no-repeat fixed center top;
+  overflow: hidden;
+}
+abbr {
+  font-size: .8em;
+}
+.aside {
+  font-size: .4em;
+}
+.playpause {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  color: #333;
+  font-family: arial, helvetica;
+  font-size: .7em;
+}
+
+.bio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.15em;
+  line-height: 2.3em;
+  color: #2b2203;
+}
+.body a {
+  color: #2b2203;
+  background: url(../images/ul.png) repeat-x left bottom;
+}
+h1 {
+  display: inline;
+  font-size: 130%;
+}
+.bio {
+  padding: 50px 30px 20px 60px;
+}
+.bio a {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.body {
+  position: relative;
+  width: 558px;
+  height: 341px;
+  background: url(../images/card.png) no-repeat;
+  margin: 200px auto 0 auto;
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+}
+.pic {
+  position: absolute;
+  left: -60px;
+  top: 40px;
+}
+
+#waves {
+  position: absolute;
+  width: 120%;
+  height: 130px;
+  bottom: -40px;
+  left: -55px;
+}
+#wavesback {
+  background: url(../images/waves-back.png) repeat-x -30px top;
+  width: 100%;
+  height: 191px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#wavesfront {
+  background: url(../images/waves-front.png) repeat-x -30px top;
+  width: 100%;
+  height: 191px;
+  position: absolute;
+  top: 20px;
+  left: 55px;
+}
+
+#boat-outer {
+  position: absolute;
+  bottom: -80px;
+  height: 339px;  
+}
+#boat {
+  position: absolute;
+  width: 248px;
+  height: 339px;
+  left: 40px;
+  background-image: url(../images/boat.png);
+}
+
+#clouds {
+  width: 200%;
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+.cloud {
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: absolute;
+  top: 0;
+}
+.cloud1 {
+  top: -30px;
+  left: 100px;
+  width: 204px;
+  height: 278px;
+  background-image: url(../images/cloud1.png);
+}
+.cloud2 {
+  top: 30px;
+  left: 600px;
+  width: 194px;
+  height: 226px;
+  background-image: url(../images/cloud2.png);
+}
+.cloud3 {
+  top: -100px;
+  left: 1100px;
+  width: 140px;
+  height: 318px;
+  background-image: url(../images/cloud3.png);
+}
